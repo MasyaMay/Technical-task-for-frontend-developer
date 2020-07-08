@@ -1,0 +1,42 @@
+.app-list {
+    margin-top: 50px;
+}
+.app-list .list-group-item {
+    margin-top: 6px;
+    border-radius: 6px;
+}
+.app-list-item {
+    font-size: 1.25rem;
+}
+.app-list-item button {
+    width: 35px;
+    height: 35px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    background-color: #fff;
+}
+.app-list-item button:focus {
+      box-shadow: none;
+      outline: none;
+}
+.app-list-item .btn-pencil {
+      color: #aeaeae;
+}
+.app-list-item .btn-trash {
+      color: red;
+}
+.app-list-item-label {
+    width: 100%;
+    line-height: 35px;
+    cursor: pointer;
+    user-select: none;
+}
+.app-list-item-label .form {
+    margin: 0 20px;
+    outline: none;
+}
+.app-list-item.change .btn-pencil,
+.app-list-item.change .app-list-item-label {
+    color: #21664C;
+}
